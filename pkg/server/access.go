@@ -32,7 +32,7 @@ func (server *Server) AuthorizeToken(ctx context.Context, req *accesspb.Authoriz
 			Authorized: false,
 		}, err
 	}
-	e, err := casbin.NewEnforcer("cmd/pkg/casbin/auth_model.conf", a)
+	e, err := casbin.NewEnforcer("pkg/casbin/auth_model.conf", a)
 	if err != nil {
 		return &accesspb.AuthorizeReply{
 			Authorized: false,
