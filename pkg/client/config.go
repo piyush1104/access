@@ -10,7 +10,7 @@ type Config struct {
 // DefaultConfig ...
 func DefaultConfig() *Config {
 	return &Config{
-		Addr:        "localhost:8003",
+		Addr:        "localhost:8009",
 		DialTimeout: DefaultDialTimeout,
 	}
 }

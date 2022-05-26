@@ -7,7 +7,6 @@ require (
 	github.com/100mslive/packages v0.0.0-20220502095106-1e1d9c7b6b79
 	github.com/casbin/casbin/v2 v2.47.1
 	github.com/casbin/gorm-adapter/v3 v3.7.1
-	github.com/casbin/xorm-adapter/v2 v2.5.1
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
