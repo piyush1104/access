@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	accesspb "github.com/100mslive/access/pkg/internal"
+	accesspb "github.com/piyush1104/access/pkg/internal"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"flag"
 	"log"
 
-	accessClient "github.com/100mslive/access/pkg/client"
+	accessClient "github.com/piyush1104/access/pkg/client"
 )
 
 func main() {

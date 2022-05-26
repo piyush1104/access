@@ -3,11 +3,11 @@ package main
 import (
 	"context"
 
-	accessServer "github.com/100mslive/access/pkg/server"
 	auth "github.com/100mslive/auth/client"
 	"github.com/100mslive/packages/conf"
 	"github.com/100mslive/packages/log"
 	"github.com/100mslive/packages/version"
+	accessServer "github.com/piyush1104/access/pkg/server"
 )
 
 var (
