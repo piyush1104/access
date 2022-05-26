@@ -1,0 +1,10 @@
+    [server]
+    port = 8009
+    metrics = 9090
+    logging = "true"
+    recovery = "true"
+    caching = "false"
+
+    [auth]
+    addr = "127.0.0.1:8001"
+    enabled = true

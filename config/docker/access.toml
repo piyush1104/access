@@ -1,0 +1,10 @@
+   [server]
+    port = 8009
+    metrics = 9090
+    recovery = "true"
+    logging = "true"
+    cahing = "false"
+
+    [auth]
+    addr = "hmsauth_auth_1:8001"
+    enabled = true

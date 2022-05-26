@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package access;
+
+option go_package = "./internal;access";
+
+service Access {
+  rpc AuthorizeToken(AuthorizeTokenRequest) returns (AuthorizeReply) {}
+  rpc Authorize(AuthorizeRequest) returns (AuthorizeReply) {}
+}
+
+message AuthorizeTokenRequest {
+  string Token = 1;
+  string Resource = 2;
+  string Action = 3;
+}
+
+message AuthorizeRequest {
+  string Subject = 1;
+  string Resource = 2;
+  string Action = 3;
+}
+
+message AuthorizeReply {
+  bool Authorized = 1;
+}
